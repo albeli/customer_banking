@@ -10,8 +10,10 @@ class Account:
     def set_balance(self, balance):
         """Sets the balance for the for the account"""
         self.balance = balance
+        return self.balance  # return updated balance
 
     # The method sets the interest gained for the account.
     def set_interest(self, interest):
         """Sets the interest gained for the the account"""
         self.interest = interest
+        return self.interest  # return updated interest
